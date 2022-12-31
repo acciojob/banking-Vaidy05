@@ -60,7 +60,7 @@ public class CurrentAccount extends BankAccount{
                  }
                  if (maxfreq > ((tradeLicenseId.length() / 2) + rem)) {
 
-                     throw new Exception();
+                     throw new Exception("Valid License can not be generated");
                  }
                  else{
                      Queue<Character> mp = new LinkedList<>();
